@@ -28,4 +28,4 @@ Our first task will be to verify the state transitions involved when applying a 
 
 ## Verifying a batch of transactions
 
-Use the foregoing validation logic to verify a batch of transactions in the `generate_constraints` method in [`rollup.rs#148], and verify that your circuit works via `cargo test end_to_end`, and then test that you can generate a valid proof via `cargo test snark_verification`.
+Use the foregoing validation logic to verify a batch of transactions in the `generate_constraints` method in [`rollup.rs#148`], and verify that your circuit works via `cargo test end_to_end`, and then test that you can generate a valid proof via `cargo test snark_verification`.
